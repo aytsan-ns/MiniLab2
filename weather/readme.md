@@ -88,3 +88,6 @@ Base URL: http://localhost:3000
         }
     ]
 }
+
+## link to the workspace:
+https://rpi222.postman.co/workspace/RPI-Workspace~c8db5b97-b3d2-4381-a065-2249903d54a2/collection/39823484-3f5240e4-4ba8-4123-8041-3d6a9af952a4?action=share&creator=39823484
