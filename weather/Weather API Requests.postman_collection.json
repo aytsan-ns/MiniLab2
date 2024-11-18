@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "3f5240e4-4ba8-4123-8041-3d6a9af952a4",
+		"name": "Weather API Requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39823484",
+		"_collection_link": "https://rpi222.postman.co/workspace/c8db5b97-b3d2-4381-a065-2249903d54a2/collection/39823484-3f5240e4-4ba8-4123-8041-3d6a9af952a4?action=share&source=collection_link&creator=39823484"
+	},
+	"item": [
+		{
+			"name": "Weather Current",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/weather/current?city=Moscow",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"weather",
+						"current"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Moscow"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Weather Astronomy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/weather/astronomy?city=Moscow",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"weather",
+						"astronomy"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Moscow"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Weather Forecase",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/weather/forecast?city=Moscow&days=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"weather",
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Moscow"
+						},
+						{
+							"key": "days",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
